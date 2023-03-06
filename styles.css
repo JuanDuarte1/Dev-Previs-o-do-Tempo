@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Altura - vh */
+  width: 100vw; /* largura - vw */
+  background-image: url("https://source.unsplash.com/1600x900/?landscape");
+}
+
+/* px = unidade de medida do tamanho da tela  */
+
+.caixa-maior {
+  background-color: black; /* Troca a cor de fundo */
+  width: 95%; /* Largura */
+  max-width: 420px; /* largura maxima  */
+  opacity: 0.8; /* transparencia do item */
+  padding: 20px; /* espacamento dentro da caixa */
+  border-radius: 25px; /* arredondar bordas */
+
+
+}
+
+input {
+  border: none; /* borda do elemento */
+  outline: none; /* borda quando selecionar o elemento */
+  padding: 10px; /* espacamento interno */
+  border-radius: 24px; /* arredondar bordas */
+  font-size: 20px; /* texto digitato dentro do input */
+  background-color: #7c7c7c2b; /* trocar cor de fundo */
+  color: #ffffff;
+  width: calc(100% - 100px);
+
+}
+
+.lupa {
+  height: 30px;
+}
+
+button {
+  border: none; /* borda do elemento */
+  outline: none; /* borda quando selecionar o elemento */
+  padding: 10px; /* espacamento interno */
+  border-radius: 50px; /* arredondar borda */
+  background-color: #7c7c7c4b; /* trocar cor de fundo */
+  float: right; /* mover elemento / ringht = todo para direita */
+  cursor: pointer; /* modificar cursor do mouse */
+}
+
+button:hover /* evento de passar o mouse */ {
+  background-color: #7c7c7c8b; /* trocar cor de fundo */
+}
+
+.caixa-media {
+  margin-top: 30px;
+}
+
+.caixa-menor {
+  display:flex;
+  margin-top: 30px;
+  align-items: center;
+
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 28px; /* tamanho do texto */
+}
+
+.temp {
+  color: #ffffff;
+  margin-top: 30px;
+}
+
+.descricao {
+  color: #ffffff;
+  margin-left: 20px;
+  text-transform: capitalize; /* Deixa a primeira letra maiuscula */
+}
+
+.umidade {
+  color: #ffffff;
+  margin-top: 30px;
+}
